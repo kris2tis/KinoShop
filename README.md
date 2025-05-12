@@ -1,12 +1,59 @@
-# React + Vite
+# Kino 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Kino** is a simple online store built with React. This project was created as a hands-on practice to learn the basics of **RESTful APIs** and **React Router**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose
 
-## Expanding the ESLint configuration
+The goal of this project is to improve familiarity with:
+- RESTful architecture and HTTP methods
+- React Router for client-side routing
+- Handling API requests with Axios
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Technologies Used
+
+- **React**
+- **Axios** – for HTTP requests
+- **React Router DOM** – for navigation and routing
+- **json-server** – as a mock backend
+- **Vite** – for fast development server
+- **Concurrently** – to run React app and API server in parallel
+
+---
+
+## 🛒 Features
+
+- Product listing page  
+- Add products to a shopping cart  
+- Shopping cart management  
+- Admin login (username: `admin`, password: `123`)  
+  → Admins can modify existing products  
+- Responsive and minimal UI
+
+---
+
+## ⚙️ Installation & Running the Project
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/kris2tis/KinoShop.git
+   cd kino
+
+```
+cd kino
+
+```
+npm install
+
+```
+npm run dev
+
+   
+
+   
