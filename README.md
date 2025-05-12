@@ -45,15 +45,13 @@ To run the project locally, follow these steps:
    git clone https://github.com/kris2tis/KinoShop.git
    cd kino
 
-```
-cd kino
+2. **install deps :**
 
-```
-npm install
+   ``` 
+    npm install
 
-```
-npm run dev
+3. **run project:**
 
-   
-
+   ```
+    npm run dev
    
