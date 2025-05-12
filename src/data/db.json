@@ -1,0 +1,246 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "خواب",
+      "description": "چطوری بخوابیم ؟",
+      "image": "/src/assets/images/articles/blogimg-1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "آب",
+      "description": "چطور آب بخوریم",
+      "image": "/src/assets/images/articles/blogimg-2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "نان",
+      "description": "چطور نان بخوریم ؟",
+      "image": "/src/assets/images/articles/blogimg-3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "غذا",
+      "description": "چطور غذا بخوریم ؟",
+      "image": "/src/assets/images/articles/blogimg-4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "بزرگ",
+      "description": "چطور بزرگ شویم ؟",
+      "image": "/src/assets/images/articles/blogimg-5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "چطور",
+      "description": "چطور چطور شویم ؟",
+      "image": "/src/assets/images/articles/blogimg-6.jpg"
+    },
+    {
+      "id": "7",
+      "title": "باشگاه",
+      "description": "چطور باشگاه را شروع کنیم ؟",
+      "image": "/src/assets/images/articles/blogimg-7.jpg"
+    },
+    {
+      "id": "8",
+      "title": "ریدن",
+      "description": "چطور برینیم ؟",
+      "image": "/src/assets/images/articles/blogimg-8.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "شلوار سفید بگ ",
+      "price": 180000,
+      "image": "/src/assets/images/clothes/clothes1.jpg",
+      "description": "پارچه ساده و راحت از جنس نخ پنبه",
+      "date": "2012 2 3",
+      "color": "کرمی",
+      "isNew": true,
+      "": 40
+    },
+    {
+      "id": "2",
+      "name": "شلوار جین آبی",
+      "price": 320000,
+      "image": "/src/assets/images/clothes/clothes2.jpg",
+      "description": "پارچه جین با برش کلاسیک مناسب استفاده روزمره",
+      "date": "2020 1 5",
+      "color": "کرمی",
+      "isNew": false,
+      "size": 40
+    },
+    {
+      "id": "3",
+      "name": "هودی طوسی",
+      "price": 450000,
+      "image": "/src/assets/images/clothes/clothes3.jpg",
+      "description": "ست لباس گرم و نرم با طراحی ساده برای فصول سرد",
+      "date": "2024 4 7",
+      "color": "آبی",
+      "isNew": false,
+      "size": 41
+    },
+    {
+      "id": "4",
+      "name": "پیراهن چهارخانه مردانه",
+      "price": 290000,
+      "image": "/src/assets/images/clothes/clothes4.jpg",
+      "description": "دامن اسپرت چهارخانه مناسب دورهمی",
+      "date": "2025 1 10",
+      "color": "مشکی",
+      "isNew": true,
+      "size": 41
+    },
+    {
+      "id": "5",
+      "name": "کاپشن مشکی کوتاه",
+      "price": 680000,
+      "image": "/src/assets/images/clothes/clothes5.jpg",
+      "description": "شلوار سبک و بادوام مناسب زمستان",
+      "date": "2022 1 17",
+      "color": "مشکی",
+      "isNew": true,
+      "size": 43
+    },
+    {
+      "id": "6",
+      "name": "لباس راحتی زنانه",
+      "price": 230000,
+      "image": "/src/assets/images/clothes/clothes6.jpg",
+      "description": "ست لباس راحتی برای استفاده در منزل",
+      "date": "2000 5 27",
+      "color": "مشکی",
+      "isNew": true,
+      "size": 43
+    },
+    {
+      "id": "7",
+      "name": "تاپ ورزشی",
+      "price": 150000,
+      "image": "/src/assets/images/clothes/clothes7.jpg",
+      "description": "دورس جذب مناسب ورزش و فعالیت‌های بدنی",
+      "date": "2018 10 20",
+      "color": "مشکی",
+      "isNew": true,
+      "size": 43
+    },
+    {
+      "id": "8",
+      "name": "شلوارک مردانه",
+      "price": 160000,
+      "image": "/src/assets/images/clothes/clothes8.jpg",
+      "description": "دورس خنک و سبک برای روزهای گرم",
+      "date": "2019 12 30",
+      "color": "خاکستری",
+      "isNew": true,
+      "size": 45
+    },
+    {
+      "id": "9",
+      "name": "دامن بلند گلدار",
+      "price": 270000,
+      "image": "/src/assets/images/clothes/clothes9.jpg",
+      "description": "کت و شلوار مناسب هوای خنک برای عروسی ",
+      "date": "2015 2 30",
+      "color": "کرمی",
+      "isNew": true,
+      "size": 45
+    },
+    {
+      "id": "10",
+      "name": "کت جین ترک",
+      "price": 490000,
+      "image": "/src/assets/images/clothes/clothes10.jpg",
+      "description": "شبوار جین کلاسیک برای ترکیب با لباس‌های مختلف",
+      "date": "2009 12 30",
+      "color": "کرمی",
+      "isNew": false,
+      "size": 45
+    }
+  ],
+  "products_soft_fabrics": [
+    {
+      "id": "12",
+      "name": "تی‌شرت  سفید",
+      "price": 180000,
+      "image": "/src/assets/images/clothes/clothes1.jpg",
+      "description": "تی‌شرت ساده",
+      "isNew": true
+    },
+    {
+      "id": "13",
+      "name": "شلوار آبی",
+      "price": 320000,
+      "image": "/src/assets/images/clothes/clothes2.jpg",
+      "description": "شلوار جین ",
+      "isNew": false
+    },
+    {
+      "id": "14",
+      "name": "هودی طوسی",
+      "price": 450000,
+      "image": "/src/assets/images/clothes/clothes3.jpg",
+      "description": "نرم با طراحی سادهد",
+      "isNew": false
+    },
+    {
+      "id": "15",
+      "name": "پیراهن چهارخانه ",
+      "price": 290000,
+      "image": "/src/assets/images/clothes/clothes4.jpg",
+      "description": "پیراهن اسپرت چهارخانه",
+      "isNew": true
+    },
+    {
+      "id": "16",
+      "name": "کاپشن کوتاه",
+      "price": 680000,
+      "image": "/src/assets/images/clothes/clothes5.jpg",
+      "description": "کاپشن سبک و بادوام  ",
+      "isNew": true
+    },
+    {
+      "id": "17",
+      "name": "لباس راحتی",
+      "price": 230000,
+      "image": "/src/assets/images/clothes/clothes6.jpg",
+      "description": "برای استفاده در منزل",
+      "isNew": true
+    },
+    {
+      "id": "18",
+      "name": "تاپ ورزشی",
+      "price": 150000,
+      "image": "/src/assets/images/clothes/clothes7.jpg",
+      "description": "تاپ جذب مناسب ورزشی  ",
+      "isNew": true
+    },
+    {
+      "id": "19",
+      "name": "شلوارک مردانه",
+      "price": 160000,
+      "image": "/src/assets/images/clothes/clothes8.jpg",
+      "description": "شلوارک خنک و سبک برای ",
+      "isNew": true
+    },
+    {
+      "id": "19",
+      "name": "دامن گلدار",
+      "price": 270000,
+      "image": "/src/assets/images/clothes/clothes9.jpg",
+      "description": "دامن بلند با طرح گل‌های بهاری ",
+      "isNew": true
+    },
+    {
+      "id": "20",
+      "name": "کت زنانه",
+      "price": 490000,
+      "image": "/src/assets/images/clothes/clothes10.jpg",
+      "description": " برای لباس‌های مختلف",
+      "isNew": false
+    }
+  ]
+}

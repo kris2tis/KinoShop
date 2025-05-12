@@ -1,0 +1,297 @@
+@import "tailwindcss";
+@import "./assets/style/utilities.css";
+
+/* ============================
+Load Custom Font
+============================= */
+
+@font-face {
+    font-family: "IranYekan";
+    src: url("./assets/fonts/IRANYekanXVF.woff") format("woff");
+}
+
+/* ============================
+  Root Variables
+============================= */
+:root {
+    /* 🎨 Colors */
+    --color-white: #ffffff;
+    --color-text-dark: #3c3c43;
+    --color-text-light: #ffffff;
+    --color-primary: #7f0019;
+    --color-secondary: #3c3c43;
+
+    --color-footer-bg: #3c3c43;
+    --color-button-bg: #3c3c43;
+    --color-button-text: #7f0019;
+
+    --color-free-delivery-bg: "#F4EEDE";
+
+    /* Border Radius */
+
+    --brand-b-radius: 5px;
+
+    /* 🔠 Font Sizes */
+    --font-size-xs: 0.75rem; /* توضیحات بلاگ */
+    --font-size-sm: 0.875rem; /* تایتل بلاگ */
+    --font-size-md: 1rem; /* تایتل محصول */
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+
+    /* 📏 Line Heights */
+    --line-height-tight: 1; /* برای تایتل بلاگ */
+    --line-height-slightly-relaxed: 1.1667; /* توضیحات بلاگ */
+    --line-height-base: 1.5; /* تایتل محصول */
+    --line-height-relaxed: 1.555; /* برای بلاگ تایتل اصلی */
+
+    /* 💪 Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+/* ============================
+Customize Breake Point (tailwind)
+============================= */
+
+@theme {
+    /* Breake Point */
+    --breakpoint-md:768px;
+    --breakpoint-2xl: 1400px;
+    --breakpoint-3xl: 120rem;
+
+    /* 🎨 Colors */
+    --color-white: #ffffff;
+    --color-text-dark: #3c3c43;
+    --color-text-light: #ffffff;
+    --color-primary: #7f0019;
+    --color-secondary: #3c3c43;
+
+    --color-footer-bg: #3c3c43;
+    --color-button-bg: #3c3c43;
+    --color-button-text: #7f0019;
+
+    /* Border Radius */
+
+    --brand-b-radius: 5px;
+}
+
+/* ============================
+    Responsive Font Size
+============================= */
+
+/* 👶 Mobile (XS) */
+@media (max-width: 575.98px) {
+    :root {
+        --font-size-xs: 0.7rem;
+        --font-size-sm: 0.8rem;
+        --font-size-base: 0.9rem;
+        --font-size-lg: 1rem;
+        --font-size-xl: 1.1rem;
+    }
+}
+
+/* 📱 SM */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    :root {
+        --font-size-xs: 0.75rem;
+        --font-size-sm: 0.875rem;
+        --font-size-base: 1rem;
+        --font-size-lg: 1.1rem;
+        --font-size-xl: 1.2rem;
+    }
+}
+
+/* 💻 MD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    :root {
+        --font-size-xs: 0.8rem;
+        --font-size-sm: 0.95rem;
+        --font-size-base: 1.05rem;
+        --font-size-lg: 1.15rem;
+        --font-size-xl: 1.3rem;
+    }
+}
+
+/* 🖥️ LG */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    :root {
+        --font-size-xs: 0.85rem;
+        --font-size-sm: 1rem;
+        --font-size-base: 1.1rem;
+        --font-size-lg: 1.2rem;
+        --font-size-xl: 1.4rem;
+    }
+}
+
+/* 🧠 XL */
+@media (min-width: 1200px) {
+    :root {
+        --font-size-xs: 0.9rem;
+        --font-size-sm: 1.05rem;
+        --font-size-base: 1.15rem;
+        --font-size-lg: 1.25rem;
+        --font-size-xl: 1.5rem;
+    }
+}
+
+/* ============================
+  CSS Reset
+============================= */
+
+html,
+body {
+    height: 100%;
+    font-family: "IranYekan", sans-serif !important;
+    font-size: var(--font-size-sm) !important;
+    line-height: var(--line-height-base) !important;
+    background-color: var(--color-white) !important;
+    color: var(--color-text-dark) !important;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+    font-size: var(--font-size-sm) !important;
+}
+
+span {
+    font-size: var(--font-size-base);
+    color: var(--color-secondary);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    display: block  ;
+}
+
+img,
+iframe,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input::placeholder {
+    color: #a4a4a4;
+    font-size: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+[dir="rtl"] .slick-next,
+[dir="rtl"] .slick-prev {
+    display: block !important;
+}
+
+.slick-list {
+    margin: 0 -5px;
+}
+
+.slick-slide > div {
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: var(--font-size-xl) !important;
+    font-weight: 600 !important;
+}
+
+h2 {
+    font-size: var(--font-size-lg) !important;
+    font-weight: 600 !important;
+}
+
+h3 {
+    font-size: var(--font-size-base) !important;
+    font-weight: 600 !important;
+}
+
+p {
+    font-size: var(--font-size-base) !important;
+}
+
+/* ============================
+    Utilities
+============================= */
+
+.footer {
+    background-color: var(--color-secondary);
+    color: var(--color-text-light);
+}
+
+/* ============================
+   Layout Utilities
+============================= */
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================
+  Global Style
+============================= */
+
+/*  Carousel Slick  */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--color-secondary);
+    padding: 15px;
+}
+
+.card {
+    direction: rtl;
+    height: 100%;
+}
+
+.card,
+.card-img-top {
+    border-radius: 0px !important;
+}
+
+.card-title {
+    font-size: var(--font-size-lg) !important;
+    font-weight: 600 !important;
+}
+
+.card-text {
+    font-size: var(--font-size-md) !important;
+    font-weight: 300;
+}
+
+.card-price {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+}
+
+/* ============================
+  Footer 
+============================= */
+
+.footer span {
+    color: var(--color-white);
+}

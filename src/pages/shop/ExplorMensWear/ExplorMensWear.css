@@ -1,0 +1,19 @@
+.explor__mens-wear .slick-prev:before {
+    font-size: 3rem;
+    color: #3c3c43;
+}
+
+.explor__mens-wear .slick-next:before {
+    font-size: 3rem;
+    color: #3c3c43;
+}
+
+.explor__mens-wear:dir(rtl) .slick-prev {
+    right: 20px ;
+    z-index: 100;
+}
+
+.explor__mens-wear:dir(rtl) .slick-next {
+    left: 20px ;
+    z-index: 100;
+}

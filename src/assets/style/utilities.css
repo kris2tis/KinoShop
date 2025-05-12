@@ -1,0 +1,8 @@
+@tailwind utilities;
+
+@layer utilities {
+    .hide-slick-buttons-rtl:dir(rtl) .slick-next,
+    .hide-slick-buttons-rtl:dir(rtl) .slick-prev {
+        display: none !important;
+    }
+}

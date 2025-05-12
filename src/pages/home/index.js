@@ -1,0 +1,7 @@
+export { default as CarouselImg } from "./carousel/Carousel"
+export { default as FreeDelivery } from "./freedelivery/FreeDelivery"
+export { default as Blog } from "./blog/Blog"
+export { default as Achieved } from "./achieved/Achieved"
+export { default as Arrivals } from "./Arrivals/Arrivals"
+export { default as BestSellers } from "./BestSellers/BestSellers"
+export { default as ProductSoftFabrics } from "./ProductSoftFabrics/ProductSoftFabrics"

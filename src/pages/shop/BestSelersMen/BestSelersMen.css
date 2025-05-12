@@ -1,0 +1,19 @@
+.best__selers-men .slick-prev:before {
+    font-size: 3rem;
+    color: #3c3c43;
+}
+
+.best__selers-men .slick-next:before {
+    font-size: 3rem;
+    color: #3c3c43;
+}
+
+.best__selers-men:dir(rtl) .slick-prev {
+    right: 20px ;
+    z-index: 100;
+}
+
+.best__selers-men:dir(rtl) .slick-next {
+    left: 20px ;
+    z-index: 100;
+}
