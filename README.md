@@ -3,6 +3,8 @@
 **Kino** is a simple online store built with React. This project was created as a hands-on practice to learn the basics of **RESTful APIs** and **React Router**.
 
 ---
+live [demo](https://kino-iran.netlify.app/)
+---
 
 ## 🎯 Purpose
 
