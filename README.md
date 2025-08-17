@@ -1,4 +1,4 @@
-# Kino 🛍️
+# Kino 
 
 **Kino** is a simple online store built with React. This project was created as a hands-on practice to learn the basics of **RESTful APIs** and **React Router**.
 
@@ -6,16 +6,7 @@
 live [demo](https://kino-iran.netlify.app/)
 ---
 
-## 🎯 Purpose
-
-The goal of this project is to improve familiarity with:
-- RESTful architecture and HTTP methods
-- React Router for client-side routing
-- Handling API requests with Axios
-
----
-
-## 🚀 Technologies Used
+## Technologies Used
 
 - **React**
 - **Axios** – for HTTP requests
@@ -34,6 +25,17 @@ The goal of this project is to improve familiarity with:
 - Admin login (username: `admin`, password: `123`)  
   → Admins can modify existing products  
 - Responsive and minimal UI
+
+
+
+---
+##  Purpose
+
+The goal of this project is to improve familiarity with:
+- RESTful architecture and HTTP methods
+- React Router for client-side routing
+- Handling API requests with Axios
+
 
 ---
 
